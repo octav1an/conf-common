@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+alias zshconfig="nvim $HOME/.zshrc"
+alias bashconfig="nvim $HOME/.bashrc"
+
+alias less="less --mouse"
+alias ipython="$HOME/$SCRIPTS_DIR/start_ipython.sh"
+
+alias ls="ls --color=always"
+alias ll="ls -lhaGtr --color=always"
+
+alias k="kubectl"
+alias kg="kubectl get"
+alias kc="kubectl config"
+
+alias dc="docker compose"
+alias dps="docker container ls -a"
+
+# Go
+alias gore="$GOPATH/bin/gore"
+
+# Git
+alias gco="git checkout "
+alias gb="git branch "
+alias gl="git log"
+alias gs="git status"
+alias gc="git commit -m "
+
+# Aliases for common dirs
+alias docs="cd ~/Documents"
+alias codedir="cd $HOME/code"
+alias notes="cd ~/Documents/notes"
+
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias d="dirs -v"
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
+
+# nvim
+alias nvim-new='NVIM_APPNAME=nvim-fresh nvim'
+
+alias bat="batcat" #??
