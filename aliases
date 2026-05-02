@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 alias zshconfig="nvim $HOME/.zshrc"
 alias bashconfig="nvim $HOME/.bashrc"
 
