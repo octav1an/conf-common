@@ -26,6 +26,7 @@ alias gl="git log"
 alias gs="git status"
 alias gc="git commit -m "
 alias gf="git fetch"
+alias ga="git add"
 
 # Aliases for common dirs
 alias docs="cd ~/Documents"
