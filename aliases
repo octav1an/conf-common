@@ -27,6 +27,7 @@ alias gs="git status"
 alias gc="git commit -m "
 alias gf="git fetch"
 alias ga="git add"
+alias gfs="git branch -a | fzf | xargs git switch"
 
 # Aliases for common dirs
 alias docs="cd ~/Documents"
