@@ -4,7 +4,7 @@ alias zshconfig="nvim $HOME/.zshrc"
 alias bashconfig="nvim $HOME/.bashrc"
 
 alias less="less --mouse"
-alias ipython="$HOME/$SCRIPTS_DIR/start_ipython.sh"
+alias ipython="$COMMON_SCRIPTS/start_ipython.sh"
 
 alias ls="ls --color=always"
 alias ll="ls -lhaGtr --color=always"
@@ -23,11 +23,13 @@ alias gore="$GOPATH/bin/gore"
 alias gco="git checkout "
 alias gb="git branch "
 alias gl="git log"
+alias glo="git log --oneline"
 alias gs="git status"
 alias gc="git commit -m "
 alias gf="git fetch"
 alias ga="git add"
 alias gfs="git branch -a | fzf | xargs git switch"
+alias gd="git diff"
 
 # Aliases for common dirs
 alias docs="cd ~/Documents"
