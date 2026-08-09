@@ -45,4 +45,3 @@ alias d="dirs -v"
 # nvim
 alias nvim-new='NVIM_APPNAME=nvim-fresh nvim'
 
-alias bat="batcat" #??
